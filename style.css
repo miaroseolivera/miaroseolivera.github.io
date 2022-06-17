@@ -1,6 +1,84 @@
-.title {
-    text-align: center;
-    font-family: sans-serif
-    ;
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+html{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+img{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+
+p{
+    color: black;
+    font-size: 1rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: lighter;
+    letter-spacing: .05rem;
+}
+
+.section-title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+/* why is thia doing nothing??
+
+.section-title span{
+    color: black;
+
+} */
+
+/* .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(109, 167, 134);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+} */
+
+/* .cta:hover{
+    color:white;
+    background-color: blueviolet;
+} */
+
+.contact-container {
+    background-color: rgb(141, 141, 141);
+}
+
+.titles-container {
+    background-color: rgb(141, 141, 141);
+}
+
+/* header??? */
