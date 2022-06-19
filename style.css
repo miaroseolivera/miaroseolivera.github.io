@@ -77,8 +77,30 @@ p{
     background-color: rgb(141, 141, 141);
 }
 
-.titles-container {
+/* .titles-container {
     background-color: rgb(141, 141, 141);
-}
+} */
 
 /* header??? */
+
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    text-align: right;
+    /* background-color: rgb(141, 141, 141); */
+}
+
+    #header{
+        min-height: 8vh;
+        /* background-color:rgb(141, 141, 141) */
+    }
+
+.about-container {
+display: grid;
+align-items: center;
+/* width: 50%; */
+}
