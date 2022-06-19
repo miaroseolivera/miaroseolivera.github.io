@@ -77,9 +77,9 @@ p{
     background-color: rgb(141, 141, 141);
 }
 
-/* .titles-container {
+.titles-container {
     background-color: rgb(141, 141, 141);
-} */
+}
 
 /* header??? */
 
@@ -91,10 +91,10 @@ p{
     width: 100vw;
     height: auto;
     text-align: right;
-    /* background-color: rgb(141, 141, 141); */
+    background-color: rgb(141, 141, 141);
 }
 
-    #header{
+#header{
         min-height: 8vh;
         /* background-color:rgb(141, 141, 141) */
     }
@@ -103,4 +103,30 @@ p{
 display: grid;
 align-items: center;
 /* width: 50%; */
+}
+
+#about-grid {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    }
+
+.header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
+
+#header .nav-bar ul a{
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    display:inline-block
 }
