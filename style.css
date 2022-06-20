@@ -37,6 +37,8 @@ p{
     letter-spacing: .05rem;
 }
 
+/* header nav bar stuffs---------------------------- */
+
 .section-title{
     font-size: 2rem;
     font-weight: 400;
@@ -47,32 +49,6 @@ p{
     text-align: center;
 }
 
-/* why is thia doing nothing??
-
-.section-title span{
-    color: black;
-
-} */
-
-/* .cta{
-    display: inline-block;
-    padding: 10px 30px;
-    color: white;
-    background-color: transparent;
-    border: 2px solid rgb(109, 167, 134);
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: background-color, color;
-} */
-
-/* .cta:hover{
-    color:white;
-    background-color: blueviolet;
-} */
-
 .contact-container {
     background-color: rgb(141, 141, 141);
 }
@@ -82,8 +58,13 @@ p{
 }
 
 /* header??? */
+/* end header */
+/* nav-list */
+/* about */
+/* specialty titles */
+/* projects */
 
-#header{
+.nav-bar{
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -96,14 +77,9 @@ p{
 
 #header{
         min-height: 8vh;
+        background-image: "./images.marble";
         /* background-color:rgb(141, 141, 141) */
     }
-
-.about-container {
-display: grid;
-align-items: center;
-/* width: 50%; */
-}
 
 #about-grid {
     display: flex;
@@ -129,4 +105,27 @@ align-items: center;
     text-transform: uppercase;
     padding: 5px;
     display:inline-block
+}
+
+/* #header .nav-list ul a::after{
+    content: attr(data-after);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: rgba(240, 248, 255, 0.021);
+    font-size: 13rem;
+    letter-spacing: 50px;
+    z-index: -1;
+    transition: .3s ease letter-spacing;
+} */
+
+/* about stuffs------------------------------- */
+
+#about{
+    /* background-image: url(https://i.pinimg.com/originals/21/30/28/213028019397e33af974fb5117ddd9e8.gif); */
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
 }
