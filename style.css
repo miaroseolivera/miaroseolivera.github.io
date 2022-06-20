@@ -37,15 +37,28 @@ p{
     letter-spacing: .05rem;
 }
 
+#meat-and-potatoes {
+    text-align: center;
+    top: 1000px;
+    display: inline-block;
+}
 /* header nav bar stuffs---------------------------- */
 
-.section-title{
+.section-title {
     font-size: 2rem;
     font-weight: 400;
     color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    text-align: center;
+}
+
+#projects {
+    text-align: center;
+}
+
+#contact {
     text-align: center;
 }
 
@@ -57,6 +70,29 @@ p{
     background-color: rgb(141, 141, 141);
 }
 
+/* flex photo and name----------FIX ME--------------- */
+
+.flex-photo-and-name {
+    display: flex;
+    /* position: absolute; */
+    top: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    text-align: left;
+    font-size: 30px;
+    justify-content: center;
+    /* position: absolute; */
+}
+
+.headshot {
+    width: 100%;
+    top: 100px;
+    justify-content: center;
+}
+/* end flex photo and name ------------------------*/
 /* header??? */
 /* end header */
 /* nav-list */
@@ -121,6 +157,8 @@ p{
 } */
 
 /* about stuffs------------------------------- */
+
+
 
 #about{
     /* background-image: url(https://i.pinimg.com/originals/21/30/28/213028019397e33af974fb5117ddd9e8.gif); */
