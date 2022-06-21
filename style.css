@@ -1,3 +1,5 @@
+/* general-------------------------------------------- */
+
 *{
     padding: 0;
     margin: 0;
@@ -14,20 +16,6 @@ a{
     text-decoration: none;
 }
 
-/* .container{
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-img{
-    height: 50%;
-    width: 50%;
-    object-fit: cover;
-}
-
 p{
     color: black;
     font-size: 1rem;
@@ -42,7 +30,6 @@ p{
     top: 1000px;
     display: inline-block;
 }
-/* header nav bar stuffs---------------------------- */
 
 .section-title {
     font-size: 2rem;
@@ -54,21 +41,42 @@ p{
     text-align: center;
 }
 
-#projects {
-    text-align: center;
-}
+/* end general----------------------------------------- */
 
-#contact {
-    text-align: center;
-}
+/* header nav bar stuffs---------------------------- */
 
-.contact-container {
+.nav-bar{
+    /* position: fixed; */
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    text-align: right;
     background-color: rgb(141, 141, 141);
 }
 
-.titles-container {
-    background-color: rgb(141, 141, 141);
+/* .header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+} */
+
+#header .nav-bar ul a{
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    display:inline-block;
 }
+
+/* end header nav bar stuff------------------------- */
 
 /* flex photo and name----------FIX ME--------------- */
 
@@ -92,73 +100,16 @@ p{
     top: 100px;
     justify-content: center;
 }
-/* end flex photo and name ------------------------*/
-/* header??? */
-/* end header */
-/* nav-list */
-/* about */
-/* specialty titles */
-/* projects */
 
-.nav-bar{
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: auto;
-    text-align: right;
-    background-color: rgb(141, 141, 141);
-}
-
-#header{
-        min-height: 8vh;
-        background-image: "./images.marble";
-        /* background-color:rgb(141, 141, 141) */
-    }
-
-#about-grid {
-    display: flex;
-    align-items: center;
+img{
+    height: 50%;
     width: 50%;
-    }
-
-.header .nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    max-width: 1300px;
-    padding: 0 10px;
+    object-fit: cover;
 }
 
-#header .nav-bar ul a{
-    font-size: 1rem;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    padding: 5px;
-    display:inline-block
-}
-
-/* #header .nav-list ul a::after{
-    content: attr(data-after);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: rgba(240, 248, 255, 0.021);
-    font-size: 13rem;
-    letter-spacing: 50px;
-    z-index: -1;
-    transition: .3s ease letter-spacing;
-} */
+/* end flex photo and name ------------------------*/
 
 /* about stuffs------------------------------- */
-
-
 
 #about{
     /* background-image: url(https://i.pinimg.com/originals/21/30/28/213028019397e33af974fb5117ddd9e8.gif); */
@@ -167,3 +118,33 @@ p{
     position: relative;
     z-index: 1;
 }
+
+/* end about stuff--------------------------------- */
+
+/* special titles------------------------------------ */
+
+.titles-section {
+    background-color: rgb(141, 141, 141);
+}
+
+/* end special titles--------------------------------- */
+
+/* projects------------------------------------------ */
+
+#projects {
+    text-align: center;
+}
+
+/* end projects--------------------------------------- */
+
+/* contact-------------------------------------------- */
+
+#contact {
+    text-align: center;
+}
+
+.contact-section {
+    background-color: rgb(141, 141, 141);
+}
+
+/* end contact---------------------------------------- */
