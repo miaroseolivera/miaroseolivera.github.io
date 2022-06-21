@@ -30,6 +30,7 @@ p{
     text-align: center;
     top: 1000px;
     display: inline-block;
+    /* position: ; */
 }
 
 .section-title {
@@ -70,13 +71,10 @@ p{
     color: white;
     background-color: black;
     width: 100%;
+    height: 250px;
     background-image: url('./images/flowers.jpg');
 }
 
-#marble {
-    width: 100%;
-    length: 50%;
-}
 /* .header .nav-bar{
     display: flex;
     align-items: center;
