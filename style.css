@@ -10,6 +10,7 @@ html{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+
 }
 
 a{
@@ -39,6 +40,7 @@ p{
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    font-family: Syncopate;
 }
 
 /* end general----------------------------------------- */
@@ -50,12 +52,31 @@ p{
     z-index: 1000;
     left: 0;
     top: 0;
-    width: 100vw;
+    width: 50%;
     height: auto;
     text-align: right;
-    background-color: rgb(141, 141, 141);
+    /* background-color: rgb(141, 141, 141); */
 }
 
+.nav-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Syncopate;
+    width: 50%;
+}
+
+#header {
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 100%;
+    background-image: url('./images/marble.jpg');
+}
+
+#marble {
+    width: 100%;
+    length: 50%;
+}
 /* .header .nav-bar{
     display: flex;
     align-items: center;
@@ -74,8 +95,19 @@ p{
     text-transform: uppercase;
     padding: 5px;
     display:inline-block;
+    font-family: Syncopate;
+    background: ;
 }
 
+/* .header-name {
+    background:
+} */
+
+.header-container {
+position: relative;
+text-align: left;
+color: white;
+}
 /* end header nav bar stuff------------------------- */
 
 /* flex photo and name----------FIX ME--------------- */
@@ -95,15 +127,15 @@ p{
     /* position: absolute; */
 }
 
-.headshot {
+/* .headshot {
     width: 100%;
     top: 100px;
     justify-content: center;
-}
+} */
 
 img{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -112,19 +144,30 @@ img{
 /* about stuffs------------------------------- */
 
 #about{
-    /* background-image: url(https://i.pinimg.com/originals/21/30/28/213028019397e33af974fb5117ddd9e8.gif); */
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 3%;
 }
+
+.headshot {
+    column-width: 50%;
+    justify-content:center;
+}
+
+.about-section {
+column-width: 50%;
+padding: 3%;
+}
+
+
 
 /* end about stuff--------------------------------- */
 
 /* special titles------------------------------------ */
 
 .titles-section {
-    background-color: rgb(141, 141, 141);
+    /* background-color: rgb(141, 141, 141); */
 }
 
 /* end special titles--------------------------------- */
@@ -148,3 +191,15 @@ img{
 }
 
 /* end contact---------------------------------------- */
+
+/* footer------------------------------------------ */
+
+.signature {
+    font-family: Syncopate;
+}
+
+/* #footer {
+    background-image: image(https://wallpaperaccess.com/full/888086.jpg);
+} */
+
+/* end footer-------------------------------------- */
