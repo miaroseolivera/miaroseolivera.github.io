@@ -30,6 +30,7 @@ p{
     text-align: center;
     top: 1000px;
     display: inline-block;
+    padding: 1%;
     /* position: ; */
 }
 
@@ -56,14 +57,20 @@ p{
     width: 50%;
     height: auto;
     text-align: right;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding bottom: 1%;
     /* background-color: rgb(141, 141, 141); */
 }
 
 .nav-name {
-    font-size: 30px;
+    font-size: 40px;
     text-transform: uppercase;
     font-family: Syncopate;
     width: 50%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding bottom: 1%;
 }
 
 #header {
@@ -74,16 +81,6 @@ p{
     height: 250px;
     background-image: url('./images/flowers.jpg');
 }
-
-/* .header .nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    max-width: 1300px;
-    padding: 0 10px;
-} */
 
 #header .nav-bar ul a{
     font-size: 1rem;
@@ -96,26 +93,13 @@ p{
     font-family: Syncopate;
 }
 
-/* .header-name {
-    background:
-} */
-
 .header-container {
 position: relative;
 text-align: left;
 color: white;
+padding: 5%;
 }
-/* end header nav bar stuff------------------------- */
 
-/* flex photo and name----------FIX ME--------------- */
-
-.flex-photo-and-name {
-    display: flex;
-    /* position: absolute; */
-    top: 400px;
-    width: 100%;
-    text-align: center;
-}
 
 .name {
     text-align: left;
@@ -124,21 +108,11 @@ color: white;
     /* position: absolute; */
 }
 
-/* .headshot {
-    width: 100%;
-    top: 100px;
-    justify-content: center;
-} */
-
 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
-/* end flex photo and name ------------------------*/
-
-/* about stuffs------------------------------- */
 
 #about{
     display: flex;
@@ -173,21 +147,12 @@ padding: 5%;
     height:fit-content;
 }
 
-
-/* end about stuff--------------------------------- */
-
-/* special titles------------------------------------ */
-
 .titles-section {
     padding: 3%;
     border-style: double;
     border-color: rgb(145, 20, 20);
     border-width: 7pt;
 }
-
-/* end special titles--------------------------------- */
-
-/* projects------------------------------------------ */
 
 #projects {
     text-align: center;
@@ -200,10 +165,6 @@ padding: 5%;
     border-width: 7pt;
 }
 
-/* end projects--------------------------------------- */
-
-/* contact-------------------------------------------- */
-
 #contact {
     text-align: center;
 }
@@ -215,15 +176,14 @@ padding: 5%;
     border-width: 7pt;
 }
 
-/* end contact---------------------------------------- */
-
-/* footer------------------------------------------ */
-
 .signature {
     font-family: Syncopate;
     background-image: url(./images/flowers.jpg);
-    color: rgb(117, 104, 104);
+    color: rgb(255, 255, 255);
     text-shadow: 5px;
 }
 
-/* end footer-------------------------------------- */
+#copyright {
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+}
