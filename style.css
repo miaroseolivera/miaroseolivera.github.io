@@ -137,7 +137,71 @@ padding: 5%;
 .snake-img {
     height:fit-content;
 }
+/* SPECIALTY BUTTONS -------------------------------------------------*/
 
+#specialties {
+    padding: 2%;
+}
+
+#code-specialty {
+    border-style: double;
+    width: 1fr;
+    margin: 1%;
+}
+
+#design-specialty {
+    border-style: double;
+    width: 1fr;
+    margin: 1%;
+
+}
+
+#photography-specialty {
+    border-style: double;
+    width: 1fr;
+    margin: 1%;
+}
+
+
+
+/* #code-specialty #design-specialty #photography-specialty img {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  #code-specialty #design-specialty #photography-specialty img {
+    width: 100%;
+    height: auto;
+  }
+
+  .specialty-link-buttons {
+      z-index: 1000;
+      text-decoration: none;
+  }
+  
+  #code-specialty #design-specialty #photography-specialty .specialty-link-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #code-specialty #design-specialty #photography-specialty .specialty-link-buttons:hover {
+    background-color: black;
+    color: white;
+  } */
+
+  /* SPECIALTY BUTTONS END --------------------------------*/
 #contact {
     text-align: center;
 }
