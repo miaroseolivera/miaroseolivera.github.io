@@ -2,7 +2,6 @@ html{
     /* font-size: 14px; */
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-
 }
 
 .nav-buttons{
@@ -43,7 +42,6 @@ p{
 }
 
 .nav-bar{
-    /* position: fixed; */
     z-index: 1000;
     left: 0;
     top: 0;
@@ -52,7 +50,6 @@ p{
     text-align: right;
     padding-right: 1%;
     padding-top: 1%;
-    padding bottom: 1%;
 }
 
 .nav-name {
@@ -61,7 +58,6 @@ p{
     width: 50%;
     padding-left: 1%;
     padding-top: 1%;
-    padding bottom: 1%;
 }
 
 /* .name{
@@ -121,7 +117,6 @@ img{
 
 .headshot {
     width: 40%;
-    /* justify-content: center; */
 }
 
 .about-section {
