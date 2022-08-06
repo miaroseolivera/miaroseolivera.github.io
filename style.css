@@ -149,17 +149,47 @@ padding: 5%;
     margin: 1%;
 }
 
+#code-specialty .specialty-link-buttons  {
+  top: 50%; 
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -1000%); */
+  background-color: rgb(145, 20, 20);
+  color: black;
+  font-size: 16px;
+  /* padding: 16px 30px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* img {
+    z-index: 5;
+}
+button a {
+    z-index: 1000;
+} */
+
 #design-specialty {
     border-style: double;
     width: 1fr;
     margin: 1%;
-
+    /* transform: scale(100%); */
 }
 
 #photography-specialty {
     border-style: double;
     width: 1fr;
     margin: 1%;
+}
+
+.specialty-link-buttons a {
+    /* padding-top: -100; */
+    z-index: 1000;
+    text-decoration: none;
+    font-family: Syncopate;
+    color:white
 }
 
 
