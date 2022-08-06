@@ -1,5 +1,5 @@
 html{
-    font-size: 14px;
+    /* font-size: 14px; */
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 
@@ -115,7 +115,7 @@ img{
     padding: 3%;
     border-style: double;
     border-color: rgb(145, 20, 20);
-    border-width: 7pt;
+    border-width: 10pt;
     box-shadow: 16px 16px 20px;
 }
 
@@ -143,24 +143,6 @@ padding: 5%;
     height:fit-content;
 }
 
-.titles-section {
-    padding: 3%;
-    border-style: double;
-    border-color: rgb(145, 20, 20);
-    border-width: 7pt;
-}
-
-#projects {
-    text-align: center;
-}
-
-.projects-list {
-    padding: 3%;
-    border-style: double;
-    border-color: rgb(145, 20, 20);
-    border-width: 7pt;
-}
-
 #contact {
     text-align: center;
 }
@@ -169,7 +151,9 @@ padding: 5%;
     padding: 3%;
     border-style: double;
     border-color: rgb(145, 20, 20);
-    border-width: 7pt;
+    border-width: 10pt;
+    box-shadow: 16px 16px 20px;
+
 }
 
 .signature {
