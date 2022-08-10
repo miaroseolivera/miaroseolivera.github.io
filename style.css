@@ -169,7 +169,7 @@ padding: 5%;
     border: none;
     cursor: pointer;
     text-align: center;
-    transform: translateY(-280%);
+    /* transform: translateY(-280%); */
 
 }
 
