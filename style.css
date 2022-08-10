@@ -139,8 +139,74 @@ padding: 5%;
 }
 /* SPECIALTY BUTTONS -------------------------------------------------*/
 
-#specialties {
+/* Mic's Test Code */
+.specialties-container > div{
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.specialties-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialty-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.specialties-container button{
+  background-color: rgb(145, 20, 20);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.specialty-link-buttons a {
+    z-index: 1000;
+    text-decoration: none;
+    font-family: Syncopate;
+    font-size: 25px;
+    color:white;
+} 
+
+.specialty-link-buttons a:hover {
+    color: black;
+}
+
+
+/* End of Test Code */
+
+
+
+
+
+
+
+
+
+
+/* #specialties {
     padding: 2%;
+    background-color: pink;
+}
+
+#specialties a:hover{
+    color: black;
 }
 
 #code-specialty {
@@ -169,7 +235,7 @@ padding: 5%;
     border: none;
     cursor: pointer;
     text-align: center;
-    /* transform: translateY(-280%); */
+    transform: translateY(-280%);
 
 }
 
@@ -191,7 +257,7 @@ padding: 5%;
     text-decoration: none;
     font-family: Syncopate;
     color:white;
-}
+} */
 
 .specialty-link-buttons {
     /* transform: translateY(-50px); */
